@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+text-align: center;
+font-family: sans-serif;
+}
+.main {
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-top: 150px;
+    height: 30vh;
+    margin-left: 300px;
+}
+.main>h1{
+    font-size:xx-large ;
+}
