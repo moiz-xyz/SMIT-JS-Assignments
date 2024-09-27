@@ -1,16 +1,49 @@
-body{
-    background-color: white;
-text-align: center;
-font-family: sans-serif;
+  
+body {
+    background-image: url(./portofino-italy-boat-sea-water-reflection-sunset-building-city-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
 }
+
 .main {
     background-color: black;
     color: white;
     width: 50%;
-    margin-top: 150px;
+    margin: 150px auto; /* Centered with automatic left/right margins */
     height: 30vh;
-    margin-left: 300px;
 }
-.main>h1{
-    font-size:xx-large ;
+
+.main > h1 {
+    font-size: xx-large;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main {
+        width: 90%; /* Make the main section wider on smaller screens */
+        margin-top: 100px; /* Adjust margin for better spacing */
+        height: 50vh;
+        font-size: xx-large;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        height: auto; /* Let the height be determined by content */
+        margin-top: 50px; /* Further reduce top margin */
+        width: 100%; 
+        height: 50vh;
+        font-size: xx-large;
+    }
+
+    .main > h1 {
+        font-size: xx-large; /* Further reduce font size */
+    }
 }
