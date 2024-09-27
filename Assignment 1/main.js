@@ -1,32 +1,32 @@
 
-// First task 
+// // First task 
 
-//alert("Welcome to my website");
-var a = "Welcome to my website";
-// first task
-alert(a);
-//console.log(a);
+// //alert("Welcome to my website");
+// var a = "Welcome to my website";
+// // first task
+// alert(a);
+// //console.log(a);
 
-// second task
+// // second task
 
-      alert
-    ("Error ! Please enter a coorect Password");
+//       alert
+//     ("Error ! Please enter a coorect Password");
 
-    // Third task 
+//     // Third task 
 
-    let welcome = "Welcome to js land!";
-    let happy= "Happy coding";
+//     let welcome = "Welcome to js land!";
+//     let happy= "Happy coding";
 
- alert (welcome +"\n \n \n " + happy);
+//  alert (welcome +"\n \n \n " + happy);
 
-       /*fourth  task 
-       Line of alerts */
+//        /*fourth  task 
+//        Line of alerts */
 
-            alert(welcome);
-            alert(happy);
+//             alert(welcome);
+//             alert(happy);
     
-// Fifth task of genrating  message in developer console
+// // Fifth task of genrating  message in developer console
 
-     console.log("Hello i can run js in my browser's console");
+//      console.log("Hello i can run js in my browser's console");
      
 
