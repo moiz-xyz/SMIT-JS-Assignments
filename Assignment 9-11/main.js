@@ -166,27 +166,7 @@
 
 // Calculator made from conditional statents
 
-let fisrt_value = Number (prompt("Enter the fisrt Number") ) ;
-let opeators = prompt("Enter the operators ( + , -, * , / ,%)");
-let second_value = Number (prompt("Enter the second Number") );
-let add = fisrt_value + second_value;
-let sub= fisrt_value - second_value;
-let multi= fisrt_value * second_value;
-let div= fisrt_value / second_value;
-let Remainer = fisrt_value % second_value;
+// 
 
-if (opeators === "+"){
-    alert(add)
-} else if (opeators === "-"){
-    alert(sub)
-} else if (opeators === "*"){
-    alert(multi)
- } else if (opeators === "/"){
-    alert(div)
-} else if (opeators === "%"){
-    alert(Remainer)
-} else{
-    alert("Invalid calculation")
-};
 
 
