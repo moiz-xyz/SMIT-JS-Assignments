@@ -61,23 +61,6 @@
 
 // task no 7
 
-let colour = [ "Red","Orange","Yellow"]
-let input1 = prompt("Which  color you want to add at last Red,Orange,Yellow, are already added");
-colour.push(input1);
-alert(colour);
-let input2 = prompt("Which  color you want to add at beginning"+" " +colour +" "+ "are already added");
-colour.unshift(input2 );  
-alert(colour+input2+" "+" is added");
-let input3 = prompt(" Add two more colour which  you want to add at beginning" +" " + colour +" "+"are already added");
-colour.splice([0],[0],input3);
-alert(colour,+input3+" "+" is added");
-let input4 = parseInt( prompt( "At which index do you want to add color index start from 0" +" " +colour) );
-colour.splice( input4 ,1);
-alert(colour+" "+input4+" "+" is added");
-
-let input6 = parseInt( prompt( "At which index do you want to add or removed color index start from 0" +" " +colour) );
-colour.splice( input6 ,1);
-alert(colour+" "+input4+" "+" is removed");
 
 
 
