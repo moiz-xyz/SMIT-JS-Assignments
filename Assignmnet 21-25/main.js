@@ -121,27 +121,27 @@
 //         }
 //     }
 //  task no 15
-let passwod_prompt = prompt("Enter a passowrd to login");
-let found = false;
-let special_character = "@,!.";
-// let num = parseInt("0123456789");
-for (let i = 0; i< passwod_prompt.length; i++){
-    // if ( passwod_prompt [i] === special_character || passwod_prompt[i] === num ){
-    //     alert("The passsword must begin with letter");
-    //     // found = true;/
-    //     break;
-    // }
-    if (!isNaN(passwod_prompt[0]) || special_character.includes(passwod_prompt[0])) {
-        alert("The password must begin with a letter.");
-        found = true;
-        break;
-    } if (passwod_prompt.length<6){
-        alert("Passord length cannot be smaller than 6");
-        found =  true;
-        break
-    } 
+// let passwod_prompt = prompt("Enter a passowrd to login");
+// let found = false;
+// let special_character = "@,!.";
+// // let num = parseInt("0123456789");
+// for (let i = 0; i< passwod_prompt.length; i++){ 
+//     if (!isNaN(passwod_prompt[0]) || special_character.includes(passwod_prompt[0])) {
+//         alert("The password must begin with a letter.");
+//         found = true;
+//         break;
+//     } if (passwod_prompt.length<6){
+//         alert("Passord length cannot be smaller than 6");
+//         found =  true;
+//         break
+//     } 
     
-}
-if (!found){
-    alert("You have sucesfuuly login");
-}
+// }
+// if (!found){
+    // alert("You have sucesfuuly login");
+// }
+
+// //  task no 16
+// var uni = "University of karachi";
+// var slpt = uni.split(" ");
+// alert(slpt)
